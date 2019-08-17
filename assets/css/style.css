@@ -1,0 +1,27 @@
+body {
+    /* Box-model */
+    padding: 0;
+      
+    /* Positioning */
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+      
+    /* Typography */
+    font-size: 15px;
+    line-height: 100%;
+    color: #333;
+      
+    /* Visual */
+    background-image: url(../images/BackgroundSW.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    
+}
+
+h1 {
+    text-align: right;
+}
+
+  
+
+
