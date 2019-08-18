@@ -1,25 +1,91 @@
 body {
-    /* Box-model */
+    /*Box Model*/
     padding: 0;
-      
-    /* Positioning */
-    margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
-      
-    /* Typography */
-    font-size: 15px;
-    line-height: 100%;
-    color: #333;
-      
-    /* Visual */
-    background-image: url(../images/BackgroundSW.jpg);
-    background-repeat: no-repeat;
-    background-position: left top;
+
+    /*Positioning*/
+	margin: 0;
+    font-family: Georgia, arial, sans-serif;
     
+	/*Typography*/
+	color: rgb(36, 34, 34);
+    font-size: 14px;
+    min-height: 800px;
+
+    /*Visual*/
+	background-image: url("../images/BackgroundSW.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+/*Heading #1*/
+h1 {
+	font-family: 'Times New Roman', sans-serif;
+	font-size: 50px;
+    font-weight: bolder;
+    text-align: right;
 }
 
-h1 {
-    text-align: right;
+.container {
+    width: 1024px;
+}
+
+.character, .enemy, .defender {
+	display: inline-block;
+	width: 180px;
+	margin-right: 2px;
+	cursor: pointer;
+	font-size: 12px;
+	color: #ccc;
+	background-color: rgba(0,0,0,0.6);
+	border: 1px solid #999;
+	
+}
+
+#character-options {
+	height: 100px;
+}
+
+.character p {
+	margin: 0 0 0 6px;
+	text-align: left;
+}
+
+.container img{
+	width: 100%;
+	margin-bottom: 6px;
+}
+
+#fightZone {
+	padding-top:60px;
+}
+
+#msg{
+	color: white;
+	margin-top: 20px;
+	background-color: rgba(0, 0, 0, .5);
+    font-size: 14px;
+    text-align: left;
+}
+
+#msg p {
+	padding:10px;
+}
+
+#restart {
+	display: none;
+}
+
+#attack {
+	display: none;
+}
+
+.progress {
+	height: 14px;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.progress-bar { 
+	width:100%;
 }
 
   
