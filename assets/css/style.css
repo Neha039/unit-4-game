@@ -88,6 +88,11 @@ h1 {
 	width:100%;
 }
 
+img {
+	width: 100px;
+	max-width: 150px;
+}
+
   
 
 
